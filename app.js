@@ -19,8 +19,10 @@ btns.forEach(function(btn){
             value.style.color = 'red';
         }else if(count == 0){
             value.style.color = 'grey';
-        }else if(count > 0){
+        }else if(count > 0 && count < 30){
             value.style.color = 'green';
+        }else if(count == 30 ){
+            value.classList.toggle('gradient');
         }
     })
 })

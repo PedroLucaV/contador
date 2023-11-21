@@ -59,6 +59,15 @@ Global Styles
 ===============
 */
 
+.green{
+  color: green;
+}
+
+.gradient{
+  background: linear-gradient( red , blue);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
 *,
 ::after,
 ::before {
